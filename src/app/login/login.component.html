@@ -1,0 +1,15 @@
+<div class="row w-100  d-flex justify-content-center align-items-ceneter" style="height: 70vh;margin-top: 150px;">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+        <img src="https://i.pinimg.com/564x/bd/a3/17/bda3177a3943ffdbcc652b3a678a0d74.jpg"
+            height="300px" alt="">
+    </div>
+    <div class="col-md-5" mt-5>
+        <form class="mt-3 border shadow rounded p-3 w-75" (ngSubmit)="login()">
+            <h3 class="text-center" style="color: #8873d4;">Login</h3>
+            <input class="mt-3 form-control" placeholder="Email" name="" id="" type="text" [(ngModel)]="empEmail" name="email">
+            <input class="mt-3 form-control" placeholder="Password" name="" id="" type="text" [(ngModel)]="empPassword" name="empPassword">
+            <button class="btn w-100 mt-3" style="background-color: #8873d4;" type="submit">LOGIN</button>
+        </form>
+    </div>
+</div>

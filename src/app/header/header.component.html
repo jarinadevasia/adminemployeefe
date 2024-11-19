@@ -1,0 +1,9 @@
+<nav class="navbar p-3 " style="background-color: #E0D7FF;">
+  <div class="container-fluid">
+    <a class="navbar-brand text-black" href="#">
+      <i class="fa-solid fa-users-gear fa-2x me-3 text-black"></i>
+      Employee Portal
+    </a>
+    <button *ngIf="isLogged" class="btn text-black" (click)="logout()"><i class="fa-solid fa-power-off"></i></button>
+  </div>
+</nav>
